@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: 2e50824ce7cff494096b1df8c10d0043
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evaporate-disappear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dc872464a3f8744b505029f31891a9
+      internalID: 650682871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb02dea343416f943830a5a7cad9bd7d
+      internalID: -172327117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028505b87c8c6ef4eba571156a0eb4bc
+      internalID: 1378649447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9505ab0de1ac154fa55241fae266fc6
+      internalID: 239934987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5cb9df454200e4a9569e2a8681c42c
+      internalID: -490815866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96f580022aa51e48b453d0672309ce3
+      internalID: 1294172234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 624.1667
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeac4531565865489903d70c949d55a
+      internalID: -637293380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac14ff58742c1684189ada9ba33fb5bb
+      internalID: -1946517894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42635da6759266242a1782fee5ad2164
+      internalID: 2092516895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a09f477f0d97447ac8becfcd850dfc
+      internalID: -724862264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41391b15c8a13d244b6358c7769b1329
+      internalID: 879804363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a036f52ff36d947b5a1766970c8743
+      internalID: 1934443870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_12
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af64ca80a5ee5642bf2e4629980714a
+      internalID: 29822672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 500.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ca1163d7ff93c4a8c808d5e342580a
+      internalID: 1735873659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1228fd634659d24791f5d7d34e9ffd4
+      internalID: 2124664418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f08847c12b2f84cbd75057675b641b
+      internalID: -1870070096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1886b3511e77a489a68da677cc724b
+      internalID: -500414513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ff2229a1baca9478ade4e63c495552
+      internalID: -1048562681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10bd4c833930d248b9bf1af0446809f
+      internalID: -1198084366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e74b1cae6ec7b049a935a8cc57c8aab
+      internalID: 1942062101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_20
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 376.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36c3595c85bcc3448631fdfe5773a2b
+      internalID: 860119247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbdf723dfe15af4283a6c2ac900447a
+      internalID: -1243853030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa00fbcae06da04c8021b4aa6777d6b
+      internalID: 230692878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30412a39a17d4234a87b7907c1c5498a
+      internalID: -967099669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_24
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f6b7b30bc4071419dc6d3cbc3aa91a
+      internalID: -1298991766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_25
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4ac43240de03a41810de5df694f8a3
+      internalID: 1602737552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_26
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6728703dd3ae2498fee706b854579f
+      internalID: 743283945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_27
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 252.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3939be44bc7a84bb200998440bd7c0
+      internalID: 142553267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94311227067628b43800a19dab5d5395
+      internalID: -1091774320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410b11fef8f63e2489832bd874a4c12b
+      internalID: 1239788780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848f2dfbbaee05b4e83e3b3ff68b4d04
+      internalID: -1481963014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_31
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3b99920fd8cf46a4a39184d2e0de5
+      internalID: -1573235032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565bfebda4994fe4ca23b43e0ad63c3a
+      internalID: 841622983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_33
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf2302f8450f1b4db34b14f56bc8ce1
+      internalID: -2035958692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_34
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 128.16666
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51b965a1ac436b42a45eaf03b24b9f1
+      internalID: -840051652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9df846aa54ee845b885833f711a561
+      internalID: 95896797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1575dd94527b3746bb64f10caba2179
+      internalID: -725001164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444abfd41b6a3df48ae7c8cec159b411
+      internalID: 114835593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_38
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb09b59bc921fc42827561521860bad
+      internalID: 2076533961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_39
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bb0cc1b4865f4499fe058753d9a4d6
+      internalID: -367481071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_40
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a9b05fb698c3745ac775a497ab7dba
+      internalID: -589751082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaporate-disappear_41
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4.166664
+        width: 115
+        height: 124.833336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2cfd0eba561d149aac2bb4cdd9262f
+      internalID: -70669612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      evaporate-disappear_0: 650682871
+      evaporate-disappear_1: -172327117
+      evaporate-disappear_10: 879804363
+      evaporate-disappear_11: 1934443870
+      evaporate-disappear_12: 29822672
+      evaporate-disappear_13: 1735873659
+      evaporate-disappear_14: 2124664418
+      evaporate-disappear_15: -1870070096
+      evaporate-disappear_16: -500414513
+      evaporate-disappear_17: -1048562681
+      evaporate-disappear_18: -1198084366
+      evaporate-disappear_19: 1942062101
+      evaporate-disappear_2: 1378649447
+      evaporate-disappear_20: 860119247
+      evaporate-disappear_21: -1243853030
+      evaporate-disappear_22: 230692878
+      evaporate-disappear_23: -967099669
+      evaporate-disappear_24: -1298991766
+      evaporate-disappear_25: 1602737552
+      evaporate-disappear_26: 743283945
+      evaporate-disappear_27: 142553267
+      evaporate-disappear_28: -1091774320
+      evaporate-disappear_29: 1239788780
+      evaporate-disappear_3: 239934987
+      evaporate-disappear_30: -1481963014
+      evaporate-disappear_31: -1573235032
+      evaporate-disappear_32: 841622983
+      evaporate-disappear_33: -2035958692
+      evaporate-disappear_34: -840051652
+      evaporate-disappear_35: 95896797
+      evaporate-disappear_36: -725001164
+      evaporate-disappear_37: 114835593
+      evaporate-disappear_38: 2076533961
+      evaporate-disappear_39: -367481071
+      evaporate-disappear_4: -490815866
+      evaporate-disappear_40: -589751082
+      evaporate-disappear_41: -70669612
+      evaporate-disappear_5: 1294172234
+      evaporate-disappear_6: -637293380
+      evaporate-disappear_7: -1946517894
+      evaporate-disappear_8: 2092516895
+      evaporate-disappear_9: -724862264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
