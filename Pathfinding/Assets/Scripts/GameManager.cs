@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Node[,] allNodes;
     public List<Node> path;
-    private bool enableDiagonals;
+    [HideInInspector] public bool enableDiagonals;
 
 
     private Pathfinding pfd;
@@ -139,9 +139,12 @@ public class GameManager : MonoBehaviour
         Destroy(token1);
         Destroy(token2);
         Instantiate(mePrefab, Calculator.GetPositionFromMatrix(objectivePos), Quaternion.identity);
-
     }
-
+    
+    public void InstantiatePosiblePath(Node node)
+    {
+        Instantiate(token3, Calculator.GetPositionFromMatrix(node.m_position), Quaternion.identity);
+    }
     private GameObject InstantiateToken(GameObject token, int[] position)
     {
         return Instantiate(token, Calculator.GetPositionFromMatrix(position), Quaternion.identity);

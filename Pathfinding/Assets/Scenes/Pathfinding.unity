@@ -656,9 +656,10 @@ MonoBehaviour:
   token1: {fileID: 7115763792773828592, guid: bbaa75e33fb6fbb45b29227b26d8b0fc, type: 3}
   token2: {fileID: 813370367208522585, guid: 77804ab7821fd8648b309374d39a980c, type: 3}
   token3: {fileID: 6080297049774802956, guid: 642914e007dea67468b6add374813c0f, type: 3}
-  isDebug: 1
+  isDebug: 0
   mePrefab: {fileID: 3526209868566212168, guid: ad241dc6d74d3de42b346caf15988e51, type: 3}
   path: []
+  enableDiagonals: 0
 --- !u!4 &1072300322
 Transform:
   m_ObjectHideFlags: 0

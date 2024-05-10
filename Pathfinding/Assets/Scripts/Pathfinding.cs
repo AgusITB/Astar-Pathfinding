@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization.Json;
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
@@ -10,7 +12,7 @@ public class Pathfinding : MonoBehaviour
 
     public void StartMe(GameManager manager)
     {
-        gameManager = manager;     
+        gameManager = manager;
     }
 
     public void FindPath(int[] startPos, int[] targetPos)
@@ -33,10 +35,12 @@ public class Pathfinding : MonoBehaviour
                     {
                         currentNode = openSet[i];
                     }
+
                 }
             }
             openSet.Remove(currentNode);
             closedSet.Add(currentNode);
+
             if (currentNode.Equals(targetNode))
             {
                 StartCoroutine(RetracePath(startNode, currentNode));
@@ -46,30 +50,51 @@ public class Pathfinding : MonoBehaviour
 
             //Debug.Log($"        Current: [{currentNode.m_position[0]},{currentNode.m_position[1]}]");
 
+
             foreach (Node neighbour in gameManager.GetNeighbours(currentNode))
             {
-               // Debug.Log($"Neighbour: [{neighbour.m_position[0]},{neighbour.m_position[1]}]");
+                // Debug.Log($"Neighbour: [{neighbour.m_position[0]},{neighbour.m_position[1]}]");
                 if (closedSet.Contains(neighbour))
                 {
                     continue;
                 }
-                int newMovementCostToNeighbour = currentNode.distanceFromStart + GetDistance(currentNode, neighbour);
 
-                if (newMovementCostToNeighbour < neighbour.distanceFromStart || !openSet.Contains(neighbour))
+                int newCostToNeighbour;
+
+
+                if (!gameManager.enableDiagonals)
                 {
-                    neighbour.distanceFromStart = newMovementCostToNeighbour;
-                    neighbour.distanceFromTheEndNode = GetDistance(neighbour, targetNode);
-                    neighbour.parent = currentNode;
-                
-                    if (!openSet.Contains(neighbour))
-                    {
-                        openSet.Add(neighbour); 
-                    }
+                    newCostToNeighbour = Convert.ToInt32(currentNode.distanceFromStart + Calculator.CheckDistanceToObj(currentNode, neighbour));
+                }
+                else
+                {
+                    newCostToNeighbour = currentNode.distanceFromStart + GetDistance(currentNode, neighbour);
                 }
 
-            }
 
+                if (newCostToNeighbour < neighbour.distanceFromStart || !openSet.Contains(neighbour))
+                {
 
+                    neighbour.distanceFromStart = newCostToNeighbour;
+
+                    if (!gameManager.enableDiagonals)
+                    {
+                        neighbour.distanceFromTheEndNode = Convert.ToInt32(Calculator.CheckDistanceToObj(currentNode, neighbour));
+                    }
+                    else
+                    {
+                        neighbour.distanceFromTheEndNode = GetDistance(neighbour, targetNode);
+                    }
+
+                    neighbour.parent = currentNode;
+
+                    if (!openSet.Contains(neighbour))
+                    {
+                        openSet.Add(neighbour);
+                    }
+
+                }
+            }        
         }
     }
 
@@ -81,25 +106,27 @@ public class Pathfinding : MonoBehaviour
 
         while (!currentNode.Equals(startNode))
         {
-        
+
             path.Add(currentNode);
             gameManager.path.Add(currentNode);
             currentNode = currentNode.parent;
 
         }
+        path.Add(currentNode);
         path.Reverse();
+ 
 
         foreach (Node nextNode in path)
         {
             yield return new WaitForSeconds(timeBetweenStep);
-            
+
 
             gameManager.token1.transform.position = Calculator.GetPositionFromMatrix(nextNode.m_position);
             if (nextNode.Equals(endNode))
             {
                 gameManager.InstantiateMe();
             }
-      
+
         }
     }
 
